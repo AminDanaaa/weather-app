@@ -1,3 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+:root {
+    --cloud-grey: #e9ecef;
+    --jet-black: #111316;
+    --electric-violet: #7B4DFF;
+    --electric-violet-light: rgb(146, 106, 255);
+    --red-errors: #990000;
+}
+
+* {
+    font-family: "Quicksand", sans-serif;
+    color: var(--jet-black);
+    box-sizing: border-box;
+}
+
+html {
+    scrollbar-width: thin;
+    scrollbar-color: var(--electric-violet) transparent;
+    scrollbar-arrow-color: var(--electric-violet);
+}
+
 body {
-    background-color: #444444;
+    background-color: var(--cloud-grey);
+    margin: 0px;
 }
